@@ -1,0 +1,19 @@
+{
+  "name": "@justice-os/components",
+  "version": "0.1.0",
+  "description": "Reusable open-source component library for justice tech applications",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "tsup src/index.ts --dts --format cjs,esm",
+    "test": "vitest",
+    "storybook:build": "storybook build",
+    "lint": "eslint src/"
+  },
+  "keywords": ["components", "ui-library", "justice-tech", "accessibility", "open-source"],
+  "author": "Justice OS Contributors",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/dougdevitre/justice-components" }
+}
